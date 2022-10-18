@@ -1,0 +1,50 @@
+.total_sales_container {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  padding: 25px 25px;
+  min-width: 25vw;
+  border: 1px solid gray;
+  margin: 15px;
+  /* min-height: 300px; */
+}
+.total_sales_card_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.total_sales_card_title > p {
+  font-size: 10px;
+  color: gray;
+  margin-bottom: 0px;
+  align-self: center;
+}
+.total_sales_card_title > h5 {
+  margin-bottom: 0px
+}
+#total_sales_value > span:nth-child(1){
+  font-size: 36px;
+  font-weight:lighter;
+  padding-right: 5px;
+  color: gray;
+}
+#total_sales_value > span:nth-child(2){
+  font-size: 48px;
+  font-weight: bold;
+  color: black;
+}
+#total_sales_value {
+  align-self: center;
+}
+#total_sales_change {
+  align-self: center;
+}
+#total_sales_percent_value {
+  color: green;
+  font-weight: bolder;
+  font-size: 28px
+}
+#total_sales_sign{
+  color: green;
+  font-weight: bolder;
+}

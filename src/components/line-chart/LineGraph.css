@@ -1,0 +1,39 @@
+.canvas {
+  border: 1px solid gray;
+  margin: 15px auto;
+  position: relative;
+
+}
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+.tooltip {
+  width: 150px;
+  padding: 4px 10px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  position: absolute;
+  background-color: white;
+  font-size: 14px;
+  pointer-events: none;
+  display: inline-block;
+  -webkit-transition: all 0.15s;
+  -moz-transition: all 0.15s;
+  -ms-transition: all 0.15s;
+  -o-transition: all 0.15s;
+  transition: all 0.15s;
+}
+.tooltip-date {
+  margin: 0 auto
+}
+
+.chart_title {
+
+  padding-top: 25px;
+  padding-left: 25px;
+}
+.area {
+  fill: url(#temperature-gradient);
+}

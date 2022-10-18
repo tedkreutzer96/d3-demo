@@ -1,0 +1,30 @@
+.retail-sales-canvas {
+
+  padding: 25px 25px;
+  min-width: 25vw;
+  /* background: red */
+  border: 1px solid gray;
+  margin: 15px;
+}
+svg {
+  border: none !important;
+  /* background: yellow; */
+}
+#chart_descriptor {
+  font-size: 24px;
+  margin: 0
+}
+#account_descriptor {
+  font-size: 12px;
+  color: gray
+}
+.retail-sales-container-0 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+[id^="selected-slice-value"] {
+  font-size: 48px;
+  font-weight: bolder;
+}

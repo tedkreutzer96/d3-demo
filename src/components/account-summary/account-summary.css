@@ -1,0 +1,60 @@
+.account_summary_card {
+  display: flex;
+  flex-direction: column;
+  justify-content:start;
+  padding: 25px 25px;
+  border: 1px solid gray;
+  margin: 15px
+}
+
+.account_summary_div {
+  flex: 2 1 0
+}
+
+.card_title {
+  font-weight: bolder;
+}
+
+#address_label {
+  font-size: 14px;
+  color: #6c6c6c;
+  margin-bottom: -2px !important
+}
+#address_value {
+  font-weight: bolder
+}
+#left_side_history {
+  margin-right: 25px
+}
+
+.account_history {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.call_history_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start
+}
+#team_last_call_section {
+  margin: auto;
+}
+.call_history_container > section {
+  flex-basis: 2
+}
+.account_info_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.account_history > section {
+  margin-right: auto
+}
+.account_history > section > p:nth-child(1) {
+  font-size: 14px;
+  color: #6c6c6c;
+  margin-bottom: -2px !important
+}
